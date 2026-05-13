@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روابط المواقع | NAFAS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Tajawal', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0a0f16 0%, #131b26 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .icon {
+            font-size: 80px;
+            color: #588157;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #f0f4f8;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .warning {
+            background: rgba(221, 161, 94, 0.1);
+            border: 2px solid #DDA15E;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .warning-icon {
+            font-size: 40px;
+            color: #DDA15E;
+            margin-bottom: 15px;
+        }
+
+        .warning-text {
+            color: #DDA15E;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            font-weight: 500;
+        }
+
+        .warning-text strong {
+            color: #f0f4f8;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .link-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: block;
+        }
+
+        .link-card:hover {
+            background: rgba(88, 129, 87, 0.2);
+            border-color: #588157;
+            transform: translateY(-5px);
+        }
+
+        .link-card h2 {
+            color: #f0f4f8;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .link-card p {
+            color: #94a3b8;
+            font-size: 0.95rem;
+        }
+
+        .link-icon {
+            font-size: 30px;
+            color: #588157;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .warning-text {
+                font-size: 1rem;
+            }
+
+            .link-card h2 {
+                font-size: 1.3rem;
+            }
+
+            .link-card p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">🚀</div>
+        <h1>روابط المواقع</h1>
+
+        <div class="warning">
+            <div class="warning-icon">⚠️</div>
+            <p class="warning-text">
+                <strong>تنبيه مهم:</strong> هذه المواقع تحتوي على أنيميشن وتأثيرات بصرية متقدمة قد تكون ثقيلة على الأجهزة المحمولة. 
+                <br><br>
+                يُنصح بفتحها باستخدام <strong>لابتوب أو كمبيوتر</strong> للحصول على أفضل تجربة.
+            </p>
+        </div>
+
+        <div class="links-container">
+            <!-- ضع رابط الموقع الأول هنا -->
+            <a href="#" class="link-card" target="_blank">
+                <div class="link-icon">🌐</div>
+                <h2>الموقع الأول</h2>
+                <p>اضغط هنا لفتح الموقع الأول</p>
+            </a>
+
+            <!-- ضع رابط الموقع الثاني هنا -->
+            <a href="#" class="link-card" target="_blank">
+                <div class="link-icon">🌐</div>
+                <h2>الموقع الثاني</h2>
+                <p>اضغط هنا لفتح الموقع الثاني</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
